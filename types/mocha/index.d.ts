@@ -430,14 +430,6 @@ declare namespace Mocha {
         (title: string, fn?: Func | AsyncFunc): Test;
 
         /**
-         * Describe a specification or test-case with the given `title` and callback `fn` acting
-         * as a thunk.
-         *
-         * - _Only available when invoked via the mocha CLI._
-         */
-        // (title: string, fn?: AsyncFunc): Test;
-
-        /**
          * Indicates this test should be executed exclusively.
          *
          * - _Only available when invoked via the mocha CLI._
